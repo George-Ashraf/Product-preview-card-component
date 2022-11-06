@@ -1,0 +1,58 @@
+body{
+background-color:BlanchedAlmond;
+}
+
+.product{
+    width: 100%;
+    height: 100vh;
+}
+.product .row{
+    justify-content: center;
+    margin-top: 100px;
+}
+.product .row .photo{
+    height: 500px;
+    padding: 0;
+}
+.product .row .photo img{
+    width: 100%;
+    height: 100%;
+}
+.product .row .text{
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 25px;
+    background-color: #fff;
+}
+.product .row .text h1{
+    font-size: 16px;
+    color: gray;
+}
+.product .row .text h2{
+    font-size: 50px;
+}
+.product .row .text p{
+    color: grey;
+    font-size: 20px;
+    
+}
+.product .row .text .price{
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.product .row .text .price span{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.product .row .text button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
